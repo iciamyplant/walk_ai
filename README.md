@@ -1,6 +1,25 @@
 # walk_ai
 
 ## 1.  Reinforcement Learning and Q Learning
+
+Deepmind impressive version of RL : Alpha zero devenant l'un des meilleurs moteurs d'échecs utilisant seulement quelques heures de jeu, Muzero atteignant un niveau de performance similaire mais sur un esemble de taches bcp plus diversifié : atari games, go.
+PrefixRL, Nvidia a annoncé avoir utilisé du deep RL pour concevoir des circuits airthmétiques plus approfondis.
+- the bellman equations, dynamic programming, genereliazed policy iteration
+- monte carlo and off policy methods
+- td learning, sarsa, and q learning
+- function approximation
+- policy gradient methods
+
+Concept
+- un agent, représente celui qui apprend
+- takes actions at each of time t : At
+- the action is received by the environnement
+- qui l'utilise pour produire une récompense Rt+1, et un état à ce moment du temps St+1
+- ceci est renvoyé à l'agent pour que la prochaine action soit décidée
+- le processus se repète
+
+time is discrete : t=[0,1,2,3,...]
+
 reinforcement learning
 q learning
 Snake Game Example
