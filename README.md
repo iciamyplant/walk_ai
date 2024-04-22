@@ -20,6 +20,12 @@ Concept
 - ceci est renvoyé à l'agent pour que la prochaine action soit décidée
 - le processus se repète
 
+<p align="center">
+<img width="400" src="https://github.com/iciamyplant/walk_ai/assets/57531966/833def76-8757-4140-a907-4e5eb55c2229">
+<p align="center">
+
+**Markov Decision Processes(MDPs)** = are mathematical frameworks to describe an environment in RL and almost all RL problems can be formulated using MDPs. An MDP consists of a set of finite environment states S, a set of possible actions A(s) in each state, a real valued reward function R(s) and a transition model P(s’, s | a). However, real world environments are more likely to lack any prior knowledge of environment dynamics. Model-free RL methods come handy in such cases.
+
 time is discrete : t=[0,1,2,3,...]
 souvent les états, les actions et les récompenses sont définis, et l'agent apprend à travers l'exploration et l'exploitation comment agir de manière optimale dans ces états pour maximiser les récompenses
 
@@ -37,14 +43,22 @@ Adaptés dans les situations où il faut prendre des décisions les unes après 
 
 Le RL fait appel à une variété d'algorithmes et de techniques informatiques pour permettre à un agent d'apprendre à prendre des décisions dans un environnement donné, quelques unes de ces méthodes :
 
-|Method|Definition|
-|-----|-----|
-|Q-Learning|C'est l'un des algorithmes les plus fondamentaux du RL. Il est utilisé pour apprendre une fonction d'évaluation de l'action appelée fonction Q, qui indique la valeur d'une action dans un état donné|
-|SARSA (State-Action-Reward-State-Action)|C'est un autre algorithme basé sur la programmation dynamique qui est utilisé pour apprendre une politique d'action optimale dans un environnement de RL|
+|Method|Definition|Comments
+|-----|-----|-----|
+|Q-Learning|C'est l'un des algorithmes les plus fondamentaux du RL. Il est utilisé pour apprendre une fonction d'évaluation de l'action appelée fonction Q, qui indique la valeur d'une action dans un état donné||
+|SARSA (State-Action-Reward-State-Action)|C'est un autre algorithme basé sur la programmation dynamique qui est utilisé pour apprendre une politique d'action optimale dans un environnement de RL|La programmation dynamique est une méthode pour résoudre des problèmes de décision séquentielle en décomposant le problème en sous-problèmes plus simples et en utilisant une relation de récurrence entre ces sous-problèmes. Elle est souvent utilisée pour résoudre des MDPs discrets et déterministes|
+|Méthodes de Monte Carlo|méthodes sont utilisées pour estimer la valeur d'une politique en échantillonnant des trajectoires complètes à partir de l'environnement. Elles sont particulièrement utiles lorsque les modèles de transition d'état ne sont pas connus||
+|td learning|TD Learning est une famille d'algorithmes d'apprentissage par renforcement qui mettent à jour les estimations de valeur des états ou des actions en utilisant une combinaison de la méthode de Monte Carlo et de la méthode de la différence temporelle. Les méthodes TD sont souvent utilisées lorsque les transitions d'état sont partiellement observables||
+|Réseaux de neurones profonds (Deep Q-Networks, DQN)|Les DQN sont une méthode qui utilise des réseaux de neurones profonds pour apprendre directement à partir de données brutes en entrée, tels que des pixels dans une image||
+|Policy Gradients|Cette approche consiste à optimiser directement la politique d'action en utilisant des méthodes de descente de gradient. Elle est souvent utilisée lorsque les actions sont continues ou lorsque l'approximation de la fonction de valeur est difficile||
+|...|||
 
-
-
-
+## 2.  Implementing Snake with Q-learning
+- Environment — Physical world in which the agent operates
+- State — Current situation of the agent
+- Reward — Feedback from the environment
+- Policy — Method to map agent’s state to actions
+- Value — Future reward that an agent would receive by taking an action in a particular state
 
 
 
