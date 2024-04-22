@@ -60,8 +60,8 @@ Le RL fait appel à une variété d'algorithmes et de techniques informatiques p
 - Policy — Method to map agent’s state to actions
 - Value — Future reward that an agent would receive by taking an action in a particular state
 
-
-
+[https://www.youtube.com/watch?v=L8ypSXwyBds](snake tuorial with neural networks)
+[https://www.youtube.com/watch?v=ZhoIgo3qqLU](frozen lake gym tuto)
 
 
 
