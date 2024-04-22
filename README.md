@@ -99,9 +99,14 @@ ARS utilise une approche différente pour optimiser son poids. Contrairement à 
 
 
 -------
-Monte carlo method
 
-
+### **Sources**
+[Slides on RL by Pieter Abbeel and John Schulman - Open AI/ Berkeley AI Research Lab](https://people.eecs.berkeley.edu/~pabbeel/nips-tutorial-policy-optimization-Schulman-Abbeel.pdf)
+[Cours videos en 10 lessons by David Silver DeepMind](https://www.youtube.com/watch?v=2pWv7GOvuf0)
+[Tutorial implementing Neural Network Policy Gradients for Pong game](https://karpathy.github.io/2016/05/31/rl/)
+[DeepMind Lab = open source 3D game-like platform created for agent-based AI research with rich simulated environments](https://deepmind.google/discover/blog/open-sourcing-deepmind-lab/)
+[Malmo, Microsoft = AI experimentation platform for supporting fundamental research in AI](https://www.microsoft.com/en-us/research/project/project-malmo/)
+[Gym OpenAI](https://www.gymlibrary.dev/index.html)
 
 Intall VM
 - ajouter Vbox Guest additions dans stockage
