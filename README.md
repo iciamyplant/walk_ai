@@ -1,7 +1,18 @@
 # walk_ai
-
-
-
+```
+gym==0.12.1
+pyvirtualdisplay==3.0
+pyglet====1.5.27
+swig==4.0.2
+box2d==2.3.2
+box2d-kengz==2.3.3
+pybullet==3.2.6
+box2d-py==2.3.8
+ray==1.12.0
+setproctitle==1.3.3
+protobuf==3.20.1
+colorama==0.4.6
+```
 
 ## 1.  Reinforcement Learning
 #### a. Définition
